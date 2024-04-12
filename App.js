@@ -10,6 +10,7 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#8e9b00",
+          paddingVertical: 100,
         }}
       >
         Box 1
@@ -63,7 +64,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "flex-end",
+    flexDirection: "row",
+    alignItems: "baseline",
     marginTop: 64,
     borderWidth: 6,
     borderColor: "red",
