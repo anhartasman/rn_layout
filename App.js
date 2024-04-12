@@ -10,7 +10,7 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#8e9b00",
-          paddingVertical: 100,
+          alignSelf: "flex-start",
         }}
       >
         Box 1
@@ -18,6 +18,7 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#b65d1f",
+          alignSelf: "flex-end",
         }}
       >
         Box 2
@@ -25,18 +26,20 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#1c4c56",
+          alignSelf: "center",
         }}
       >
         Box 3
       </Box>
-      {/* <Box
+      <Box
         style={{
           backgroundColor: "#ab9156",
+          alignSelf: "stretch",
         }}
       >
         Box 4
       </Box>
-      <Box
+      {/*<Box
         style={{
           backgroundColor: "#6b0803",
         }}
@@ -64,8 +67,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: "row",
-    alignItems: "baseline",
     marginTop: 64,
     borderWidth: 6,
     borderColor: "red",
