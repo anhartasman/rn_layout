@@ -63,5 +63,11 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, marginTop: 64, borderWidth: 6, borderColor: "red" },
+  container: {
+    flex: 1,
+    flexDirection: "column-reverse",
+    marginTop: 64,
+    borderWidth: 6,
+    borderColor: "red",
+  },
 });
