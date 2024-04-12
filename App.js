@@ -24,6 +24,8 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#1c4c56",
+          flexBasis: 120,
+          flex: 1,
         }}
       >
         Box 3
@@ -31,6 +33,8 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#ab9156",
+          height: 140,
+          flex: 1,
         }}
       >
         Box 4
@@ -62,12 +66,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
-    height: 300,
-    flexWrap: "wrap",
-    // rowGap: 20,
-    // columnGap: 30,
-    gap: 10,
+    flex: 1,
     marginTop: 64,
     borderWidth: 6,
     borderColor: "red",
