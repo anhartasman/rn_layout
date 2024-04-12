@@ -10,7 +10,6 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#8e9b00",
-          flex: 1,
         }}
       >
         Box 1
@@ -18,7 +17,6 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#b65d1f",
-          flex: 3,
         }}
       >
         Box 2
@@ -30,7 +28,7 @@ export default function App() {
       >
         Box 3
       </Box>
-      <Box
+      {/* <Box
         style={{
           backgroundColor: "#ab9156",
         }}
@@ -57,7 +55,7 @@ export default function App() {
         }}
       >
         Box 7
-      </Box>
+      </Box> */}
     </View>
   );
 }
@@ -65,7 +63,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: "column-reverse",
+    justifyContent: "space-around",
+    flexDirection: "column",
     marginTop: 64,
     borderWidth: 6,
     borderColor: "red",
