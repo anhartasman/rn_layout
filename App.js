@@ -3,10 +3,14 @@ import Box from "./components/Box";
 
 export default function App() {
   return (
+    // Flex container  takes up space only required by its children
+    // To ensure container take all available space, use flex:1
+    // Flex in children will takes up percentage of available space
     <View style={styles.container}>
       <Box
         style={{
           backgroundColor: "#8e9b00",
+          flex: 1,
         }}
       >
         Box 1
@@ -14,6 +18,7 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#b65d1f",
+          flex: 3,
         }}
       >
         Box 2
@@ -58,9 +63,5 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    marginTop: 64,
-    borderWidth: 6,
-    borderColor: "red",
-  },
+  container: { flex: 1, marginTop: 64, borderWidth: 6, borderColor: "red" },
 });
