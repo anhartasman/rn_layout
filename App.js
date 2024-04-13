@@ -38,7 +38,6 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#6b0803",
-          flexGrow: 1,
         }}
       >
         Box 5
@@ -46,7 +45,6 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#1c4c56",
-          flexGrow: 3,
         }}
       >
         Box 6
