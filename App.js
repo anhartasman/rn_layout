@@ -10,6 +10,8 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#8e9b00",
+          top: 75,
+          left: 75,
         }}
       >
         Box 1 Shrink
@@ -31,6 +33,8 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#ab9156",
+          top: 75,
+          left: 75,
         }}
       >
         Box 4
