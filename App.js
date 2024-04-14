@@ -33,8 +33,9 @@ export default function App() {
       <Box
         style={{
           backgroundColor: "#ab9156",
-          top: 75,
-          left: 75,
+          position: "absolute",
+          top: 100,
+          left: 100,
         }}
       >
         Box 4
